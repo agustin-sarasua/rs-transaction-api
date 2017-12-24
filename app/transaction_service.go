@@ -19,3 +19,7 @@ func SignContract(tx *m.Transaction) (string, error) { return "OK", nil }
 func LoadTransaction(id int64) *m.Transaction {
 	return nil
 }
+
+func CreateTransaction(t *m.Transaction) (int64, []error) {
+	return 0, nil
+}
